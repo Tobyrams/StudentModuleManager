@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PARTONE_CLASSLIBRARY", "PARTONE_CLASSLIBRARY\PARTONE_CLASSLIBRARY.csproj", "{B31D5192-7BC2-4E3D-9310-A934C8E6EBFB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B31D5192-7BC2-4E3D-9310-A934C8E6EBFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B31D5192-7BC2-4E3D-9310-A934C8E6EBFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B31D5192-7BC2-4E3D-9310-A934C8E6EBFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B31D5192-7BC2-4E3D-9310-A934C8E6EBFB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {870D1197-5E6F-456E-83A7-FEB70A1A9FA5}
+	EndGlobalSection
+EndGlobal

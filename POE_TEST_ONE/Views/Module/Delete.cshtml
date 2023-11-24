@@ -1,0 +1,77 @@
+﻿@model Module
+
+<form method="post">
+    <input asp-for="Id" hidden />
+    <div class="border p-3 mt-4">
+        <div class="row pb-2">
+            <h2>Delete Category</h2>
+            <hr />
+        </div>
+        @* <div asp-validation-summary="ModelOnly"></div> *@
+
+        <div class="mb-3 row p-1">
+            <label asp-for="Module_code" class="p-0"></label>
+            <input asp-for="Module_code" disabled class="form-control" />
+        </div>
+
+        <div class="mb-3 row p-1">
+            <label asp-for="Module_Name" class="p-0"></label>
+            <input asp-for="Module_Name" disabled class="form-control" />
+        </div>
+
+        @* credits *@
+        <div class="mb-3 row p-1">
+            <label asp-for="Num_credits" class="p-0"></label>
+            <input asp-for="Num_credits" disabled class="form-control" /> @* disabled means we can edit the fields *@
+        </div>
+        @* classhoursperweek *@
+        <div class="mb-3 row p-1">
+            <label asp-for="Class_hours_per_week" class="p-0"></label>
+            <input asp-for="Class_hours_per_week" disabled class="form-control" /> @* disabled means we can edit the fields *@
+        </div>
+        @* weeksinsemester *@
+        <div class="mb-3 row p-1">
+            <label asp-for="Num_weeks_in_semester" class="p-0"></label>
+            <input asp-for="Num_weeks_in_semester" disabled class="form-control" /> @* disabled means we can edit the fields *@
+        </div>
+        @* semesterstart *@
+        <div class="mb-3 row p-1">
+            <label asp-for="Semester_start_date" class="p-0"></label>
+            <input asp-for="Semester_start_date" disabled class="form-control" /> @* disabled means we can edit the fields *@
+        </div>
+        @* studiedhours *@
+        <div class="mb-3 row p-1">
+            <label asp-for="Studied_on_certin_date" class="p-0"></label>
+            <input asp-for="Studied_on_certin_date" disabled class="form-control" /> @* disabled means we can edit the fields *@
+        </div>
+        @* Date studied value *@
+        <div class="mb-2 row p-1 text-dark">
+            <label asp-for="Hours_Studied_On_CertinDate" class="p-0"></label>
+            <input asp-for="Hours_Studied_On_CertinDate" disabled class="form-control" />
+        </div>
+        @* selfstudyhours *@
+        <div class="mb-3 row p-1">
+            <label asp-for="Self_Study_hours" class="p-0"></label>
+            <input asp-for="Self_Study_hours" disabled class="form-control" /> @* disabled means we can edit the fields *@
+        </div>
+        @* remaininghousr *@
+        <div class="mb-3 row p-1">
+            <label asp-for="Remaining_study_hours" class="p-0"></label>
+            <input asp-for="Remaining_study_hours" disabled class="form-control" /> @* disabled means we can edit the fields *@
+        </div>
+
+
+
+
+        <div class="row">
+            <div class="col-6 col-mid-3 ">
+                <button type="submit" class="btn btn-danger form-control">Delete</button>
+            </div>
+            <div class="col-6 col-mid-3">
+                <a asp-controller="Module" asp-action="Index" class="btn btn-secondary border form-control">
+                    Back to List
+                </a>
+            </div>
+        </div>
+    </div>
+</form>
