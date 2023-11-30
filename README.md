@@ -45,6 +45,9 @@ These instructions will help you set up a local development environment for the 
 - [Chart.js](https://www.chartjs.org/) - Library for creating interactive charts.
 - [Bootstrap](https://getbootstrap.com/) - Front-end framework for responsive design.
 
+## POE
+[Programming 2B](https://github.com/Tobyrams/StudentModuleManager/blob/master/PROG6212POE.pdf)
+
 ### Languages and Tools:
 ![Static Badge](https://img.shields.io/badge/C%23-green?style=for-the-badge&logoColor=blue)
 ![Static Badge](https://img.shields.io/badge/HTML-orange?style=for-the-badge&logoColor=orange)
